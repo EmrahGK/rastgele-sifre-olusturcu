@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-background-color: rgb(95, 35, 134);
+background-color: rgb(200, 200, 200);
 }
 #box {
     margin: auto;
@@ -16,5 +16,38 @@ background-color: rgb(95, 35, 134);
     background-color: white;
     text-align: center;
     font-family: Consolas;
+}
 
+#content{
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#header-2{
+    border-radius: 5px;
+    font-size: 2em;
+    background-color: rgb(221, 221, 221);
+}
+
+
+#your-passwd{
+    font-size: 1.6em;
+    width: fit-content;
+    font-weight: bold;
+}
+
+#password{
+    background-color: white;
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+#password-place{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
 }
